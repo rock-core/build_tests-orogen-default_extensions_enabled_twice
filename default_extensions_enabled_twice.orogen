@@ -1,0 +1,6 @@
+name "default_extensions_enabled_twice"
+
+using_task_library "default_extensions"
+
+task_context "Task" do
+end

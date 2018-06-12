@@ -1,0 +1,9 @@
+PROJECT(default_extensions_enabled_twice)
+cmake_minimum_required(VERSION 2.6)
+
+SET (CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/.orogen/config")
+INCLUDE(default_extensions_enabled_twiceBase)
+
+# FIND_PACKAGE(KDL)
+# FIND_PACKAGE(OCL)
+

@@ -1,0 +1,9 @@
+<package>
+  <description brief="Regression test w.r.t. enabling default extensions twice on imported projects">
+      OroGen was calling the default extensions twice on load. This package is doing
+      the import, default_extensions is the to-be-imported package.
+  </description>
+  <depend package="base/cmake" />
+  <depend package="base/orogen/std" />
+  <depend package="build_tests/orogen/default_extensions" />
+</package>
